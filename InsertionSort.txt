@@ -1,0 +1,34 @@
+Insertion Sort Project
+[22,27,16,2,18,6] - Insertion Sort
+
+1-Yukarida verilen dizinin sort turune gore asamalarini yaziniz.
+2-Big-O gosterimini yaziniz.
+3-Time Complexity: Average case: Aradigimiz sayinin ortada olmasi,Worst case: Aradigimiz sayinin sonda olmasi, Best case: Aradigimiz sayinin dizinin en basinda olmasi.
+4-Dizi siralandiktan sonra 18 sayisi hangi case kapsamina girer? Yaziniz.
+5-[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a gore ilk 4 adimini yaziniz.
+
+
+1.
+1. [22|, 27, 16, 2, 18, 6]  -  n
+2. [22, 27|, 16, 2, 18, 6]  -  n-1
+3. [16, 22, 27|, 2, 18, 6]  -  n-2
+4. [2, 16, 22, 27|, 18, 6]  -  n-3
+5. [2, 16, 18, 22, 27|, 6]  -  1
+6. [2, 6, 16, 18, 22, 27]
+
+2.
+Big-O : O(n^2)
+
+3.
+Best case    : O(n)
+Average case : O(n^2)
+Worst case   : O(n^2)
+
+4.
+## 18 sayisini baz alarak yapilan islemde average case olacaktir ##
+
+5.
+- [2,3,5,8,7,9,4,15,6]
+- [2,3,4,8,7,9,5,15,6]
+- [2,3,4,5,7,9,8,15,6]
+- [2,3,4,5,6,9,8,15,7]
