@@ -1,1 +1,0 @@
-# VeriYap-lar--Algoritmalar
