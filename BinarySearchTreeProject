@@ -1,0 +1,24 @@
+Binary Search Tree Project
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree asamalarını yaziniz
+
+root = 7
+              __________(7)__________
+              |                     |
+        _____(5)_________          (8)____
+        |               |                 |
+   ____(1)_____        (6)               (9)
+   |          |
+  (0)    ____(3)____
+         |         |
+        (2)       (4)
+Acıklama
+-Root = 7
+- 5, 7 den kücük oldugu icin root'un solundadır
+- 1, 7 den ve 5 den kücük oldugu icin ikisinin de solundadır
+- 8, 7 den buyuk oldugu icin root'un sagındadır
+- 3, 7 den ve 5 den kucuk oldugu icin soldan devam eder 1 den buyuk oldugu icin saga yazilir
+- 6, 7 den kucuk oldugu icin soldan devam eder 5 den buyuk oldugu icin saga yazılır
+- 0, 7 ve 5 den kucuk oldugu icin soldan devam eder 1 den de kucuk oldugu icin sola yazılır
+- 9, 7 den buyuk oldugu icin sagdan devam eder ve 8 den buyuk oldugu icin saga yazilir
+- 4, 7 ve 5 den kücük oldugu icin soldan devam eder, 1 ve 3 den buyuk oldugu icin sagdan devam eder
+- 2, 7 ve 5 den kücük oldugu icin soldan devam eder, 3 den kucuk oldugu icin sola yazilir
